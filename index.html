@@ -1,0 +1,186 @@
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-0J350BP7YE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0J350BP7YE'); -->
+    </script>
+
+    <meta charset="utf-8" />
+    <title>PyRoki: A Modular Toolkit for Robot Kinematic Optimization</title>
+
+    <!-- TODO double check these are updated -->
+    <!-- Website Metadata -->
+    <meta content="A Modular Toolkit for Robot Kinematic Optimization" name="description" />
+    <meta content="PyRoki: A Modular Toolkit for Robot Kinematic Optimization" property="og:title" />
+    <meta content="A Modular Toolkit for Robot Kinematic Optimization" property="og:description" />
+    <meta content="http://www.pyroki-toolkit.github.io/data/preview_card.jpg" property="og:image" />
+    <meta content="PyRoki: A Modular Toolkit for Robot Kinematic Optimization" property="twitter:title" />
+    <meta content="A Modular Toolkit for Robot Kinematic Optimization" property="twitter:description" />
+    <meta content="http://www.pyroki-toolkit.github.io/data/preview_card.jpg" property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script
+        type="text/javascript">WebFont.load({ google: { families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic", "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Changa One:400,400italic", "Varela Round:400", "Bungee Shade:regular", "Roboto:300,regular,500", "Bungee Outline:regular"] } });</script>
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+
+    <!-- JQuery, scripts etc -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- Stylesheets; tabler icons, fonts, ...-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link href="data/favicon.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+    <div>
+        <!-- Title, Subtitle, Authors -->
+        <div>
+            <h1 class="title">
+                PyRoki
+            </h1>
+            <div class="base-row">
+                <div style="padding: 2px;">
+                    <h1 class="subheader">
+                        A Modular Toolkit for
+                    </h1>
+                </div>
+                <div style="padding: 2px;">
+                    <h1 class="subheader">
+                        Robot Kinematic Optimization
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Author list -->
+            <div class="base-row">
+                <!-- Refer to how author wrapping is performed in https://brentyi.github.io/tilted/ -->
+                <div style="padding: 2px;">
+                    <a href="https://chungmin99.github.io/" target="_blank" class="author-text">
+                        Chung Min Kim
+                    </a>
+                    <span class="text-star">*</span>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <a href="https://brentyi.github.io/" target="_blank" class="author-text">
+                        Brent Yi
+                    </a>
+                    <span class="text-star">*</span>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <a href="https://hongsukchoi.github.io/" target="_blank" class="author-text">
+                        Hongsuk Choi
+                    </a>
+                </div>
+                <div style="padding: 2px;">
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <a href="https://people.eecs.berkeley.edu/~yima/" target="_blank" class="author-text">
+                        Yi Ma
+                    </a>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <a href="https://goldberg.berkeley.edu/" target="_blank" class="author-text">
+                        Ken Goldberg
+                    </a>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <a href="https://people.eecs.berkeley.edu/~kanazawa/" target="_blank" class="author-text">
+                        Angjoo Kanazawa
+                    </a>
+                </div>
+            </div>
+            <div style="text-align: center">
+                <h1 id="uc-berkeley">UC Berkeley</h1>
+                <span class="text-star">*</span>Denotes Equal Contribution
+            </div>
+        </div>
+
+        <!-- Submission status -->
+        <!-- <div class="title-row">
+            <h2 class="subheader">...</h1>
+        </div> -->
+
+        <!-- Paper / code / data URLs -->
+        <!-- TODO: Update arxiv/code/data link -->
+        <!-- <strong class="link-labels-text">Paper</strong> -->
+
+        <div class="base-row add-top-padding" style="
+                display: flex;
+                justify-content: center;
+                gap: 0.75em;
+                flex-wrap: wrap;
+              ">
+            <a href="https://arxiv.org/abs/2410.03665" target="_blank">
+                <button>
+                    <i class="ti ti-article"></i>
+                    <span class="link-labels-text">Paper</span>
+                </button>
+            </a>
+            <a href="https://github.com/brentyi/egoallo" target="_blank">
+                <button>
+                    <i class="ti ti-brand-github"></i>
+                    <span class="link-labels-text">Code</span>
+                </button>
+            </a>
+            <a href="https://github.com/brentyi/egoallo" target="_blank">
+                <button>
+                    <i class="ti ti-book"></i>
+                    <span class="link-labels-text">Docs</span>
+                </button>
+            </a>
+        </div>
+
+        <!-- TL;DR + Teaser video -->
+        <div class="section base-row add-top-padding">
+            <h1 class="tldr">
+                <b>TL;DR</b>:
+                <span class="code-font">PyRoki</span> is a modular, extensible, and cross-platform toolkit for kinematic
+                optimization.
+            </h1>
+            <video id="main-video" autobuffer muted autoplay loop controls>
+                <source id="mp4" src="data/teaser.mp4" type="video/mp4">
+            </video>
+            <p class="paragraph add-top-padding">
+                We unify problems like inverse kinematics, trajectory optimization, and motion retargeting using composable kinematic variables and costs. PyRoki aims to support a broad variety of robots and tasks, and runs on CPU, GPU, and TPU.
+            </p>
+        </div>
+
+        <div class="section add-top-padding" style="text-align: center;">
+            <h1 id="abstract">Citation</h1>
+            <div class="citation" style="text-align: left;">
+            <pre id="codecell0">
+@article{pyroki2025,
+&nbsp;author = {Kim, Chung Min* and Yi, Brent* and Choi, Hongsuk and Ma, Yi and Goldberg, Ken and Kanazawa, Angjoo},
+&nbsp;title = {PyRoki: A Modular Toolkit for Robot Kinematic Optimization},
+&nbsp;journal = {arXiv},
+&nbsp;year = {2025},
+} </pre>
+            </div>
+        </div>
+        <footer>
+            <div class="section" style="margin-top: 40px;">
+                <p class="paragraph">
+                    The website template is based on the following project websites:
+                    <a href="https://www.lerf.io">LERF</a>,
+                    <a href="https://brentyi.github.io/tilted/">TILTED</a>,
+                    <a href="https://egoallo.github.io/">EgoAllo</a>
+                    .
+                </p>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
